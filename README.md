@@ -11,8 +11,6 @@ You will receive a message like this one :
 ## Bitecoin
 <img src="./slack_msg_bitcoin.png" alt="Result"/>
 
-slack_msg_bitcoin.png
-
 # 1. Create a slack app
 It's important to create a slack app to receive a message, you can easily do it : https://api.slack.com/messaging/webhooks
 
