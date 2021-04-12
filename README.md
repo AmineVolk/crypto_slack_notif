@@ -30,5 +30,5 @@ Very simple to do, for exap to run the script [every 4h](https://crontab.guru/ev
 
 ```bash
 # ~/bashScripts/coinbashSlack.sh => path to the script
-0 */4 * * * ~/bashScripts/coinbashSlack.sh
+0 */4 * * * ~/bashScripts/coinbashSlack.sh "bitecoin"
 ```
