@@ -5,7 +5,7 @@ Use a cron to track a list of crypto by sending messages by slack.
 
 You will receive a message like this one : 
 
-## Filecoine
+## Filecoin
 <img src="./slack_msg_filecoin.png" alt="Result"/>
 
 ## Bitecoin
@@ -21,10 +21,8 @@ You can add to your bash,zsh.. or other, the line :
 # example : https://hooks.slack.com/services/XXXX/YYYYY/ZZZZ
 export SLACK_HOOK="YOU_SLACK_HOOK"
 ```
-# 3.Clone the projet or copy simply the script
-
-if you copy the script, don't forgot chmod +x coinslacknotif.sh
-
+# 3.Clone the projet or simply copy the script
+if you copy the script, don't forget chmod +x coinslacknotif.sh
 # 4.Setup the cron
 Very simple to do, for exap to run the script [every 4h](https://crontab.guru/every-4-hours)
 
