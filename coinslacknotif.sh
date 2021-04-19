@@ -71,7 +71,7 @@ add="${1#*=}"
 
 
 res=$(curl -s https://api.coingecko.com/api/v3/coins/markets\?vs_currency\=usd\&ids\=$1)
-res=$(firstArrayValue $res)
+res=$(firstArrayValue "$res")
 
 price=$(getFieldValue "$res" "current_price")
 symbol=$(getFieldValue "$res" "symbol")
